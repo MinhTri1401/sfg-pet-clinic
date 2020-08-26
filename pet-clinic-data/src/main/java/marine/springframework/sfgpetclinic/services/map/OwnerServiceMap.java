@@ -1,11 +1,11 @@
 package marine.springframework.sfgpetclinic.services.map;
 
 import marine.springframework.sfgpetclinic.model.Owner;
-import marine.springframework.sfgpetclinic.services.CrudService;
+import marine.springframework.sfgpetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements CrudService<Owner,Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
     @Override
     public Owner findById(Long id) {
         return super.findById(id);
@@ -29,5 +29,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements C
     @Override
     public void delete(Owner object) {
         super.delete(object);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }
