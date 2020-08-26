@@ -1,5 +1,14 @@
+marine\springframework\sfgpetclinic\services\map\PetServiceMap.class
+marine\springframework\sfgpetclinic\model\PetType.class
+marine\springframework\sfgpetclinic\services\CrudService.class
+marine\springframework\sfgpetclinic\services\map\VetServiceMap.class
+marine\springframework\sfgpetclinic\services\PetService.class
+marine\springframework\sfgpetclinic\services\map\AbstractMapService.class
+marine\springframework\sfgpetclinic\model\Owner.class
+marine\springframework\sfgpetclinic\services\VetService.class
+marine\springframework\sfgpetclinic\services\map\OwnerServiceMap.class
 marine\springframework\sfgpetclinic\model\Person.class
 marine\springframework\sfgpetclinic\model\Pet.class
 marine\springframework\sfgpetclinic\model\Vet.class
-marine\springframework\sfgpetclinic\model\Owner.class
-marine\springframework\sfgpetclinic\model\PetType.class
+marine\springframework\sfgpetclinic\services\OwnerService.class
+marine\springframework\sfgpetclinic\model\BaseEntity.class
