@@ -2,9 +2,10 @@ package marine.springframework.sfgpetclinic.services.map;
 
 import marine.springframework.sfgpetclinic.model.Owner;
 import marine.springframework.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
     @Override
     public Owner findById(Long id) {
