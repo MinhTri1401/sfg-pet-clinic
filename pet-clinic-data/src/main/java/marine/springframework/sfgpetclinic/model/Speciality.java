@@ -1,6 +1,15 @@
 package marine.springframework.sfgpetclinic.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table("specialties")
 public class Speciality extends BaseEntity{
+    @Column(name = "description")
+    private String description;
+
     public String getDescription(){
         return description;
     }
@@ -9,6 +18,6 @@ public class Speciality extends BaseEntity{
         this.description = description;
     }
 
-    private String description;
+
 
 }
